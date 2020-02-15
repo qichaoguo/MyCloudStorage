@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCS.Api", "MCS.Api.csproj", "{4720C9DF-A9AB-4987-8B0D-C1FCBC503D4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4720C9DF-A9AB-4987-8B0D-C1FCBC503D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4720C9DF-A9AB-4987-8B0D-C1FCBC503D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4720C9DF-A9AB-4987-8B0D-C1FCBC503D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4720C9DF-A9AB-4987-8B0D-C1FCBC503D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4A2FB25-3D24-44C2-86C2-6DBB550974FE}
+	EndGlobalSection
+EndGlobal
