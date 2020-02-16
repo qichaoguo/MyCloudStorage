@@ -5,10 +5,14 @@ import router from './router'
 import ViewUI from 'view-design'
 import 'view-design/dist/styles/iview.css'
 
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+
 Vue.config.productionTip = false
 
 //安装ViewUI
 Vue.use(ViewUI)
+Vue.use(VueAxios, axios)
 
 new Vue({
   router,

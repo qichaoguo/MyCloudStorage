@@ -19,7 +19,7 @@ export default {
   },
   methods: {
     select(name) {
-      this.$router.replace('/'+name);
+      this.$router.replace("/" + name);
     }
   }
 };
