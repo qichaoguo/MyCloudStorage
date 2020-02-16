@@ -1,12 +1,11 @@
 <template>
   <div id="app">
     <Menu/>
-    <FileList/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-const FileList = () => import('./components/FileList.vue')
 const Menu = () => import('./components/Menu.vue')
 
 export default {
