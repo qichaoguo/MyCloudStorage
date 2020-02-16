@@ -59,7 +59,7 @@ namespace MCS.Api.Controllers
         [HttpGet("down/{filePath}")]
         public IActionResult DownMyFile(string filePath)
         {
-            filePath = Environment.CurrentDirectory + "/FileStorage" + filePath;
+            filePath = Environment.CurrentDirectory + "/FileStorage/" + filePath;
             string fileName = Regex.Match(filePath, "/([^/]*$)").Groups[1].Value;
             return File(new FileStream(filePath, FileMode.Open), "application/octet-stream", fileName);
         }

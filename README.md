@@ -1,6 +1,8 @@
+## 项目介绍
+云盘
 ## 项目由来
-闲置的服务器、巩固一下知识
-## 技术选择
-+ 前端：Vue,webpack,IView
-+ 后端：.NetCore
-+ 服务器：CentOS,Nginx
+学习
+## 目录介绍
++ MCS.Web Web(Vue)
++ MCS.Api WebAPI(.NetCore)
+
